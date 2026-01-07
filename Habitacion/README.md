@@ -8,4 +8,5 @@ Conceptos:
 - Lógica de negocio básica
 
 
-# Ejecutar la clase ´Main.java´
+## Ejecución
+Ejecutar la clase `Main.java`.
