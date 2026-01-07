@@ -34,6 +34,7 @@ public class Producto {
             System.out.println("\n no hay suficiente productos");
         } else {
             stock = stock - cantidad;
+            System.out.println("------------------------------------------------");
             System.out.println("\nventas realizadas: " + cantidad + " unidades");
             System.out.println("Stock actual: " + stock);
         }
@@ -42,9 +43,11 @@ public class Producto {
     public void reabastecer(int cantidad) {
 
         if(cantidad <=0){
+            System.out.println("----------------------------------------------------");
             System.out.println("La cantidad a reabastecer debe ser mayor que cero.");
         }
         else if (cantidad > 0 ){
+            System.out.println("----------------------------------------------------");
             System.out.println("\nreabastecimiento exitoso: " + cantidad + " unidades");
             stock= stock + cantidad;
             
@@ -54,7 +57,7 @@ public class Producto {
 
     
      public void mostrarinformcion() {
-        System.out.println("nombre: " + nombre);
+        System.out.println("\nnombre: " + nombre);
         System.out.println("Precio: " + precio);
         System.out.println("Strock disponibles: " + stock);
 
