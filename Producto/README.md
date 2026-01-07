@@ -15,4 +15,4 @@ Ejercicio desarrollado para practicar el control de información y validaciones 
 - Uso de condicionales
 
 ## Ejecución
-Ejecutar la clase `Main.java`.
+Ejecutar la clase `EjecutarProducto.java`.
